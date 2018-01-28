@@ -64,8 +64,8 @@ In order to modify the treeNode later, let’s keep an instance reference to it.
 
 ```Swift
 class ViewController: UIViewController, ARSCNViewDelegate {
-var treeNode: SCNNode?
-...
+    var treeNode: SCNNode?
+    ...
 }
 ```
 
@@ -87,14 +87,14 @@ Once we get a result from the hitTest, we can position the treeNode to the same 
 
 ```Swift
 override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-guard let touch = touches.first else { return }
-let results = sceneView.hitTest(touch.location(in: sceneView), types: [ARHitTestResult.ResultType.featurePoint])
-guard let hitFeature = results.last else { return }
-let hitTransform = SCNMatrix4(hitFeature.worldTransform)
-let hitPosition = SCNVector3Make(hitTransform.m41,
-hitTransform.m42,
-hitTransform.m43)
-treeNode?.position = hitPosition;
+    guard let touch = touches.first else { return }
+    let results = sceneView.hitTest(touch.location(in: sceneView), types: [ARHitTestResult.ResultType.featurePoint])
+    guard let hitFeature = results.last else { return }
+    let hitTransform = SCNMatrix4(hitFeature.worldTransform)
+    let hitPosition = SCNVector3Make(hitTransform.m41,
+                                     hitTransform.m42,
+                                     hitTransform.m43)
+    treeNode?.position = hitPosition;
 }
 ```
 
@@ -104,18 +104,18 @@ Now, we can make clones of the tree as well so we can plant our forest!
 
 ```Swift
 override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-guard let touch = touches.first else { return }
-let results = sceneView.hitTest(touch.location(in: sceneView), types: [ARHitTestResult.ResultType.featurePoint])
-guard let hitFeature = results.last else { return }
-let hitTransform = SCNMatrix4(hitFeature.worldTransform)
-let hitPosition = SCNVector3Make(hitTransform.m41,
-hitTransform.m42,
-hitTransform.m43)
-let treeClone = treeNode!.clone()
-treeClone.position = hitPosition
-sceneView.scene.rootNode.addChildNode(treeClone)
+    guard let touch = touches.first else { return }
+    let results = sceneView.hitTest(touch.location(in: sceneView), types: [ARHitTestResult.ResultType.featurePoint])
+    guard let hitFeature = results.last else { return }
+    let hitTransform = SCNMatrix4(hitFeature.worldTransform)
+    let hitPosition = SCNVector3Make(hitTransform.m41,
+                                     hitTransform.m42,
+                                     hitTransform.m43)
+    let treeClone = treeNode!.clone()
+    treeClone.position = hitPosition
+    sceneView.scene.rootNode.addChildNode(treeClone)
 }
-
+```
 
 
 
