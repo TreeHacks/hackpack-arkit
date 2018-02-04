@@ -6,7 +6,7 @@ In this hackpack,  we're going to work with ARKit, the new framework from Apple 
 ### Getting Started
 First, create a new Xcode project and select the Augmented Reality template.
 
-![projectType](https://lh4.googleusercontent.com/d5nfUB9K3n6xR8LiUJUehDa-zSOhPfMdWyiPDrTeM1aYFbzz42jCEc_3kwq0Z2Ws56wj_ll4lhdzlg=w3266-h1860-rw)
+![projectType](https://user-images.githubusercontent.com/20130899/35774486-f42d7f96-0925-11e8-8958-66a152feeac8.png)
 
 Press next, fill in the following fields, ensuring you select SceneKit for the final field.
 ![projectSettings](https://user-images.githubusercontent.com/20130899/35774487-f44585aa-0925-11e8-96fa-76b7ef933b8a.png)
@@ -17,7 +17,7 @@ Press next, fill in the following fields, ensuring you select SceneKit for the f
 ![models](https://user-images.githubusercontent.com/20130899/35774518-c5361a30-0926-11e8-8724-df100bed5f92.png)
 
 For this hackpack, we are going to use this free [tree model](https://www.turbosquid.com/3d-models/sample-trees-c4d-free/1008420).
-![tree](https://user-images.githubusercontent.com/20130899/35774552-ccd4549a-0927-11e8-9a31-8c9aac371309.png)
+![tree](https://user-images.githubusercontent.com/20130899/35774552-ccd4549a-0927-11e8-9a31-8c9aac371309.png =100)
 
 ### Import the DAE Model into the Xcode Project
 
