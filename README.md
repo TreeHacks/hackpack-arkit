@@ -17,7 +17,7 @@ Press next, fill in the following fields, ensuring you select SceneKit for the f
 ![models](https://user-images.githubusercontent.com/20130899/35774518-c5361a30-0926-11e8-8724-df100bed5f92.png)
 
 For this hackpack, we are going to use this free [tree model](https://www.turbosquid.com/3d-models/sample-trees-c4d-free/1008420).
-![tree](https://user-images.githubusercontent.com/20130899/35774552-ccd4549a-0927-11e8-9a31-8c9aac371309.png =100)
+![tree](https://user-images.githubusercontent.com/20130899/35774552-ccd4549a-0927-11e8-9a31-8c9aac371309.png =100x)
 
 ### Import the DAE Model into the Xcode Project
 
