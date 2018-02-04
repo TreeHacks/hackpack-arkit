@@ -16,8 +16,7 @@ Press next, fill in the following fields, ensuring you select SceneKit for the f
 [TurboSquid](https://www.turbosquid.com/Search/3D-Models/free) is a website where you can find 3D models to play around with. One thing to be aware of though is that some models here are meant for non-realtime rendering, so the poly counts may be high. Anything over 10k is probably too high for a mobile app. SceneKit supports DAE models. As a shortcut, you can use this [direct link](https://www.turbosquid.com/Search/3D-Models?keyword=&search_type=free&media_typeid=2&file_type=194&min_poly=0k&max_poly=10k) to find DAE models that are free and less than 10k polys.
 ![models](https://user-images.githubusercontent.com/20130899/35774518-c5361a30-0926-11e8-8724-df100bed5f92.png)
 
-For this hackpack, we are going to use this free [tree model](https://www.turbosquid.com/3d-models/sample-trees-c4d-free/1008420).
-![tree](https://user-images.githubusercontent.com/20130899/35774552-ccd4549a-0927-11e8-9a31-8c9aac371309.png =100x)
+For this hackpack, we are going to use this free [tree model](https://www.turbosquid.com/3d-models/sample-trees-c4d-free/1008420)
 
 ### Import the DAE Model into the Xcode Project
 
