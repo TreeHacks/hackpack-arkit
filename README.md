@@ -6,17 +6,23 @@ In this hackpack,  we're going to work with ARKit, the new framework from Apple 
 ### Getting Started
 First, create a new Xcode project and select the Augmented Reality template.
 
+![projectType](https://lh4.googleusercontent.com/d5nfUB9K3n6xR8LiUJUehDa-zSOhPfMdWyiPDrTeM1aYFbzz42jCEc_3kwq0Z2Ws56wj_ll4lhdzlg=w3266-h1860-rw)
+
 Press next, fill in the following fields, ensuring you select SceneKit for the final field.
+![projectSettings](https://user-images.githubusercontent.com/20130899/35774487-f44585aa-0925-11e8-96fa-76b7ef933b8a.png)
 
 ### Finding a Model to Work With
 
-[TurboSquid](https://www.turbosquid.com/Search/3D-Models/free) is a website where you can find 3D models to play around with. One thing to be aware of though is that some models here are meant for non-realtime rendering, so the poly counts may be high. Anything over 10k is probably too high for a mobile app. SceneKit supports DAE models. As a shortcut, you can use this [direct link](https://www.turbosquid.com/Search/3D-Models?keyword=&search_type=free&media_typeid=2&file_type=194&min_poly=0k&max_poly=10k) to find DAE models that are free and less than 10k polys. Every model on this list should be appropriate for use in your app.
+[TurboSquid](https://www.turbosquid.com/Search/3D-Models/free) is a website where you can find 3D models to play around with. One thing to be aware of though is that some models here are meant for non-realtime rendering, so the poly counts may be high. Anything over 10k is probably too high for a mobile app. SceneKit supports DAE models. As a shortcut, you can use this [direct link](https://www.turbosquid.com/Search/3D-Models?keyword=&search_type=free&media_typeid=2&file_type=194&min_poly=0k&max_poly=10k) to find DAE models that are free and less than 10k polys.
+![models](https://user-images.githubusercontent.com/20130899/35774518-c5361a30-0926-11e8-8724-df100bed5f92.png)
 
 For this hackpack, we are going to use this free [tree model](https://www.turbosquid.com/3d-models/sample-trees-c4d-free/1008420).
+![tree](https://user-images.githubusercontent.com/20130899/35774552-ccd4549a-0927-11e8-9a31-8c9aac371309.png)
 
 ### Import the DAE Model into the Xcode Project
 
 Download the DAE version of the model and drag the file in to the Xcode navigator in to your art.scnassets folder that was created from the AR app template. Once you have added the asset to your Xcode project, you can preview it within Xcode by holding click and drag around to rotate around your mesh. If you don’t see anything in this step, there is an issue with your model.
+![treeInProj](https://user-images.githubusercontent.com/20130899/35774519-c54d3724-0926-11e8-8116-906735d92184.png)
 
 ### Load the Model into Your Scene
 
