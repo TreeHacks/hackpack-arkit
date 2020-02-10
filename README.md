@@ -1,7 +1,7 @@
 # hackpack-arkit
 
 ### Overview
-In this hackpack,  we're going to work with ARKit, the new framework from Apple that allows us to easily create augmented reality experiences in our iOS apps. This hackpack will teach you how to use a custom 3D model in agumented reality, how to use the ARKit hitscan, and how to anchor features to place the custom model on real-world objects. We will create an AR experience where users can “plant” trees in AR and walk around them.
+In this hackpack,  we're going to work with ARKit, the new framework from Apple that allows us to easily create augmented reality experiences in our iOS apps. This hackpack will teach you how to use a custom 3D model in augmented reality, how to use the ARKit hitscan, and how to anchor features to place the custom model on real-world objects. We will create an AR experience where users can “plant” trees in AR and walk around them.
 
 ### Getting Started
 First, create a new Xcode project and select the Augmented Reality template.
